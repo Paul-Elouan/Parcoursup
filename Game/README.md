@@ -2,13 +2,14 @@
 Lands of the Forgotten Souls
 ____________________________
 
-**Nécessite PYGAME pour fonctionner** (la version portable de Pygame a été abandonnée)
+**Requires PYGAME to run** (portable pygame got discontinued)
 
-Jeu en cours de création, dans lequel vous incarnez un personnage errant dans une terre composée d'un quartier d'habitation, d'un chemin principal et d'un château.
-Au début du jeu, vous aurez le choix entre : Mage, Berserker, Chevalier ou Archer. Pour l'instant, ces choix sont surtout destinés à produire des effets visuels plutôt qu'autre chose...
-Les types d'armes varieront selon la classe choisie, et tous les types d'armes (en fonction de la classe choisie) auront des "éléments" dans le même ordre.
-Des monstres seront également présents! De monstres visibles sur la carte aux monstres "piège", ils auront tous une difficulté croissante.
 
-Il y aura le gameplay principal et celui du "fantôme", mais je ne sais pas encore ce que le "fantôme" fera (c'est un travail en cours après tout). J'ai tout de même quelques idées.
+WorkInProgress Game created by myself, where you play as a character wandering throughout a land composed of the lower houses, the main path & the castel (biggest part). 
+You'll have a choice offered to you at the start of the game: Mage; Berserker; Knight or Archer. Which, for now, are only planned to be more visual effects than anything... 
+Types of weapons will vary from a class to an other and they'll all (the weapon types depanding of the class choosen) have "elements" in the same order. 
+Monsters are a thing too! From monsters visible on the map to "trap" monsters, they'll all have an increasing difficulty.
 
-La carte sera disposée manuellement et les monstres auront des zones prédéfinies où ils n'apparaîtront pas, créant ainsi une zone de sécurité pour le joueur.
+You'll have the main gameplay and the ghost one, idk what "ghost" will do but hey, it's WIP after all. Got some ideas tho.
+
+The map will be manually layed out and monsters will have predefined areas in which they won't spawn, where it'll be safe for the player.
