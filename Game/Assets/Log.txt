@@ -1,0 +1,18 @@
+29/11/2022
+Decouverte du projet final et creation de "Idee.txt", future cahier des charges
+
+30/11/2022
+Debut de la creation d'assets
+
+01/12/2022
+Continuation des assets (abrege en 'CdA' pour le reste du fichier)
+
+03/12/2022
+Debut de la creation du code => Player class + Backpack
+&
+CdA
+
+=> https://www.fantasynamegenerators.com
+
+09/12/2022
+CdA
