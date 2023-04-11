@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire HGGSP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="miniDank4.png">
+</head>
+<body>
+    <nav> <!--barre de navigation en haut du site-->
+        <div class="navigation">
+            <a href="#main" style="text-decoration-line: none;"> <!--bouton permettant un retour à la page d'accueil à tout moment-->
+                <div class="main">
+                    <img src="Dank.png" class="nimg">
+                    <div>Archives de 1914</div>
+                </div>
+            </a>
+            <div class="else">
+                <div class="elsetext"> <!--boutons redirigant vers d'autres partie du site-->
+                    <a href="#how" class="comment">Comment ça marche ?</a>
+                    <a href="traitement.php#grah" class="comment">Graphiques</a>
+                </div>
+                <button class="formulaire">
+                    <a href="#form" style="text-decoration: none; color: #e5e5e5;">Formulaire</a>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div id="main" class="box"> <!--partie prinpale du site, page d'acceuil-->
+        <div>
+            <h1 class="h1">Les archives de 1914, <br> Terminale HGGSP</h1>
+            <div class="intro">Ce site web est un outil de saisie et de représentation de données ayant pour but de faciliter votre travail de recherche dans les archives de Nantes de la première guerre mondiale.</div>
+            <div class="bouton">
+                <button class="button">
+                    <a href="#form" style="text-decoration: none; color: #e5e5e5;">
+                        <img class="bimg" src="Dank.png" height="44">
+                        <div class="b">Remplir un formulaire</div>
+                    </a>
+                </button>
+            </div>
+        </div>
+        <div>
+            <img class="img "src="img.png">
+        </div>
+    </div>
+    <div id="how"> <!--div to l'explication du site-->
+        <h1 class="h1">Comment ça marche ?</h1>
+        <div class="box2">
+            <h2 class="h2">Fonctionement :</h2>
+            <div style="color: rgb(191 219 254);">
+                <ul class="ul">
+                    <li>Remplissez une ou plusieurs fois le formulaire pour obtenir une représentation des données sous forme de graphique.<br>Attention, tous les champs doivent être remplis.</li>
+                    <br>    
+                    <li>Ou bien cliquez directement en haut à droite sur "Graphiques" pour une représentation directe des <br> données sans saisie.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="form" class="form"> <!--div du formulaire de saise de données-->
+        <h1 class="h1">Formulaire :</h1>
+        <div class="box3">
+            <form method="post" action="traitement.php"> <!--envoie vers la page traitement.php-->
+                <input class="field" placeholder="Nom" type="text" name="nom" size="41" required><br>
+                <input class="field" placeholder="Prénom" type="text" name="prenom" size="41" required><br>
+                <input class="field" placeholder="Age (année de naissance)" type="text" name="age" size="41" required><br>
+                <input class="field" placeholder="Département ou pays de naissance" type="text" name="pays" size="41" required><br>
+                <input class="field" placeholder="Commune d'habitation" type="text" name="commune" size="41" required><br>
+                <input class="field" placeholder="Département d'habitation" type="text" name="departement" size="41" required><br>
+                <input class="field" placeholder="Catégorie socio-pro / métier" type="text" name="metier" size="41" required><br>
+                <div style="border-bottom: 0.25rem solid #e5e5e5; text-align: left;">
+                    <label class="label" for="month-select">Mois d'incorporation :</label>
+                    <select class="select" name="mois" id="month-select" required>
+                        <option value="janvier">Janvier</option>
+                        <option value="fevrier">Février</option>
+                        <option value="mars">Mars</option>
+                        <option value="avril">Avril</option>
+                        <option value="mai">Mai</option>
+                        <option value="juin">Juin</option>
+                        <option value="juillet">Juillet</option>
+                        <option value="aout">Août</option>
+                        <option value="septembre">Septembre</option>
+                        <option value="octobre">Octobre</option>
+                        <option value="novembre">Novembre</option>
+                        <option value="decembre">Décembre</option>
+                    </select> 
+                </div> <br> <br>
+                <button class="envoyer" style="text-decoration: none; color: #e5e5e5;" type="submit"> <!--bouton pour envoyer le formulaire-->
+                    Envoyer
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
